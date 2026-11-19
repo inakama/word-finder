@@ -1,0 +1,97 @@
+
+# ==============================
+# .NET / Visual Studio
+# ==============================
+
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+[Bb]uild/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# ==============================
+# Visual Studio Code
+# ==============================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ==============================
+# JetBrains Rider
+# ==============================
+
+.idea/
+*.sln.iml
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.local.json
+
+# ==============================
+# Test Results
+# ==============================
+
+TestResults/
+*.trx
+coverage/
+coverage.*
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# ==============================
+# Python (Spec Kit tooling)
+# ==============================
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ==============================
+# OS / Miscellaneous
+# ==============================
+
+*.log
