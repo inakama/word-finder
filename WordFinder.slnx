@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WordFinder/WordFinder.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/WordFinder.Tests/WordFinder.Tests.csproj" />
+  </Folder>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/WordFinder.Benchmarks/WordFinder.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/examples/">
+    <Project Path="examples/WordFinder.Demo/WordFinder.Demo.csproj" />
+  </Folder>
+</Solution>
